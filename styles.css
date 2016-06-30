@@ -1,0 +1,29 @@
+body {
+  font-family: helvetica, monospace, sans-serif;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  line-height: .5em;
+}
+
+h3 {
+  line-height: .4em;
+}
+
+h1 {
+  line-height: .7em;
+}
+
+div#portrait {
+  margin: 10% auto;
+  width: 66.67%;
+  min-width: 300px;
+}
