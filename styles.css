@@ -1,13 +1,31 @@
 body {
   font-family: helvetica, monospace, sans-serif;
-  font-size: 200%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 h1, h2, h3 {
   padding: 0;
   margin: 0;
+}
+
+#portrait, #content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 66.67%;
+  min-width: 300px;
+  max-width: 750px;
+}
+
+#portrait {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#title-banner {
+  font-size: 200%;
+  float:left;
 }
 
 #title-banner h2 {
@@ -23,8 +41,44 @@ h1, h2, h3 {
   padding-left: 5px;
 }
 
-div#portrait {
-  margin: 10% auto;
-  width: 66.67%;
-  min-width: 300px;
+
+#table-of-contents {
+  margin-left: auto;
+  margin-right: 0;
+  float:right;
+}
+
+#table-of-contents ul {
+  left: 0px;
+  position: relative;
+}
+
+#table-of-contents ul li {
+  list-style-type: none;
+  text-align:right;
+  padding-right: 5px;
+}
+
+#table-of-contents ul li:hover {
+  border-right: solid 1px black;
+}
+
+#table-of-contents ul li a,
+#table-of-contents ul li a:link,
+#table-of-contents ul li a:visited,
+#table-of-contents ul li a:active,
+#table-of-contents ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#table-of-contents ul li a:hover {
+  font-weight: bold;
+}
+
+#content {
+  clear: both;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
