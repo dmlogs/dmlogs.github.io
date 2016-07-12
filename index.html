@@ -13,25 +13,27 @@
 </head>
 <body>
   <div id="portrait">
-    <div id="title-banner">
-      <h2>DAN</h2>
-      <h1>LOGAN</h1>
-      <h3>xyz</h3>
+    <div id="top">
+      <div id="title-banner">
+        <h2>DAN</h2>
+        <h1>LOGAN</h1>
+        <h3>xyz</h3>
+      </div>
+      <div id="table-of-contents">
+        <ul>
+          <li>
+            <span onclick="loadMarkdown('md/about')">about</span>
+          </li>
+          <li>
+            <span onclick="loadMarkdown('md/resume')">resume</span>
+          </li>
+          <li>
+            <a href="https://github.com/dmlogs">github</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div id="table-of-contents">
-      <ul>
-        <li>
-          <span onclick="loadMarkdown('md/about')">about</span>
-        </li>
-        <li>
-          <span onclick="loadMarkdown('md/resume')">resume</span>
-        </li>
-        <li>
-          <a href="https://github.com/dmlogs">github</a>
-        </li>
-      </ul>
-    </div>
+    <div id="content"></div>
   </div>
-  <div id="content"></div>
 </body>
 </html>

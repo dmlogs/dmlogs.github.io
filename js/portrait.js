@@ -1,3 +1,7 @@
+/**
+  Replace with css.
+**/
+
 (function() {
 
   function isWidthGreater(portrait) {
@@ -27,7 +31,7 @@
   }
 
   var alignPortrait = function () {
-    if (isWidthGreater($("#portrait"))) {
+    if (isWidthGreater($("#portrait #top"))) {
       floatTableOfContentsRight();
     }
     else {
