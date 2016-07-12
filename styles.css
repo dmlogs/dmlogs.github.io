@@ -61,6 +61,7 @@ h1, h2, h3 {
 
 #table-of-contents ul li:hover {
   border-right: solid 1px black;
+  font-weight: bold;
 }
 
 #table-of-contents ul li a,
@@ -70,10 +71,6 @@ h1, h2, h3 {
 #table-of-contents ul li a:hover {
   text-decoration: none;
   color: black;
-}
-
-#table-of-contents ul li a:hover {
-  font-weight: bold;
 }
 
 #content {
