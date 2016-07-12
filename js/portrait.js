@@ -1,3 +1,7 @@
+/**
+  Calculate width of contents and adjust class accordingly.
+**/
+
 (function() {
 
   function isWidthGreater(portrait) {
@@ -10,28 +14,15 @@
   }
 
   function floatTableOfContents(direction) {
-    $("#table-of-contents").css('float',direction);
-    $("#table-of-contents ul li").css('text-align',direction);
-  }
-
-  function floatTableOfContentsRight() {
-    floatTableOfContents('right');
-    $("#table-of-contents").css('margin-top','0px');
-    $("#table-of-contents ul").css('left','0px');
-  }
-
-  function floatTableOfContentsLeft() {
-    floatTableOfContents('left');
-    $("#table-of-contents").css('margin-top','10px');
-    $("#table-of-contents ul").css('left','-40px');
+    $("#table-of-contents").removeClass("right left").addClass(direction);
   }
 
   var alignPortrait = function () {
-    if (isWidthGreater($("#portrait"))) {
-      floatTableOfContentsRight();
+    if (isWidthGreater($("#portrait #top"))) {
+      floatTableOfContents('right');
     }
     else {
-      floatTableOfContentsLeft();
+      floatTableOfContents('left');
     }
   };
 
