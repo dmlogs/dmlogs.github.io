@@ -1,2 +1,2 @@
 # dmlogs.github.io
-[My personal website.](danlogan.xyz)
+[My personal website.](http://danlogan.xyz)
