@@ -1,4 +1,6 @@
-var loadMarkdown = function(src) {
+var dmlogs = dmlogs || {};
+
+dmlogs.loadMarkdown = function(src) {
   $.get(src, function(data) {
     var markdown =  data;
     var converter = new showdown.Converter();
