@@ -10,6 +10,11 @@
 <script src="https://cdn.rawgit.com/showdownjs/showdown/1.4.2/dist/showdown.min.js"></script>
 <script src="js/portrait.js"></script>
 <script src="js/load-markdown.js"></script>
+<script>
+  $(document).ready(function() {
+    if (document.location.search.substr(1) == 'resume') dmlogs.loadMarkdown('md/resume.md');
+  })
+</script>
 </head>
 <body>
   <div id="portrait">
