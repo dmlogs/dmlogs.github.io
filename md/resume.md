@@ -30,6 +30,7 @@ _Mfg. CIM IT Intern; ON Semiconductor (Gresham, OR); March 2010 - March 2011_
 _Bachelor of Science; Oregon State University; 2007 - 2012_
 
 - Graduated with a Bachelor of Science in Computer Science with a focus on Computer Systems
+- Member, Upsilon Pi Epsilon, International Honor Society for the Computing and Information Disciplines
 
 **Volunteer Service**
 
